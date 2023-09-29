@@ -25,7 +25,7 @@ This tutorial is meant to be completed as part of the repository that you use fo
 
 3. Download the file [`blood_fat.csv`](https://biostat2.uni.lu/practicals/data/blood_fat.csv) and place it in the `data` sub-folder you just created.
 
-4. Run `renv::restore()` to install the packages required.
+4. Run `renv::restore()` to install the packages packaged. `renv` should already be activated if installed in the systems library.
 
 5. Add a code chunk and to load the libraries. You only need `readr`.
 
@@ -140,6 +140,15 @@ In the `col_types = cols(....)` you can use the columns bare names and either th
 # Write your answer here
 ```
 
+## Render the document 
+
+You use the command 
+
+```
+quarto render import.qmd
+```
+
+You can also click the button in the user interface of RStudio or use the <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>k</kbd> (Windows)  or  <kbd>Cmd</kbd> <kbd>Shift</kbd> <kbd>k</kbd> on macOS. 
 
 ## Add the data and the changed Rmarkdown file to your Github repository
 
